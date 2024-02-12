@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"], input[type="password"], input[type="text"]#captcha {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .captcha {
+    margin-top: 20px;
+  }
+  
+  .captcha img {
+    width: 100%;
+    height: auto;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  #refresh-captcha {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }

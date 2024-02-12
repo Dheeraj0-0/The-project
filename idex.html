@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page with Captcha</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1>Login Page</h1>
+    <form id="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
+
+      <div class="captcha">
+        <img src="captcha.php" alt="Captcha Image">
+        <input type="text" id="captcha" name="captcha" required><br>
+        <a href="#" id="refresh-captcha">Refresh Captcha</a>
+      </div>
+
+      <input type="submit" value="Sign In">
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
